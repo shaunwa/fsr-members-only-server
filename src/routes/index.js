@@ -1,19 +1,23 @@
-import { addIngredientRoute } from './addIngredientRoute';
-import { addMealRoute } from './addMealRoute';
-import { deleteIngredientRoute } from './deleteIngredientRoute';
-import { deleteMealRoute } from './deleteMealRoute';
-import { getIngredientsRoute } from './getIngredientsRoute';
-import { getMealsRoute } from './getMealsRoute';
-import { getShoppingListRoute } from './getShoppingListRoute';
-import { searchRecipesRoute } from './searchRecipesRoute';
+import { acceptRequestRoute } from './acceptRequestRoute';
+import { createGroupRoute } from './createGroupRoute';
+import { createJoinRequestRoute } from './createJoinRequestRoute';
+import { createMessageRoute } from './createMessageRoute';
+import { getAllGroupsRoute } from './getAllGroupsRoute';
+import { getGroupRoute } from './getGroupRoute';
+import { getGroupMessagesRoute } from './getGroupMessagesRoute';
+import { getJoinGroupRequestsRoute } from './getJoinGroupRequestsRoute';
+import { getUserGroupsRoute } from './getUserGroupsRoute';
+import { rejectRequestRoute } from './rejectRequestRoute';
 
 export const routes = [
-    addIngredientRoute,
-    addMealRoute,
-    deleteIngredientRoute,
-    deleteMealRoute,
-    getIngredientsRoute,
-    getMealsRoute,
-    getShoppingListRoute,
-    searchRecipesRoute,
+    acceptRequestRoute,
+    createGroupRoute,
+    createJoinRequestRoute,
+    createMessageRoute,
+    getAllGroupsRoute,
+    getGroupRoute,
+    getGroupMessagesRoute,
+    getJoinGroupRequestsRoute,
+    getUserGroupsRoute,
+    rejectRequestRoute,
 ];
