@@ -1,7 +1,7 @@
 import admin from 'firebase-admin';
 import { createJoinRequest } from '../db';
 
-export const createJoinRequestRoute = {
+export const createRequestRoute = {
     method: 'post',
     path: '/groups/:id/request',
     handler: async (req, res) => {

@@ -8,7 +8,7 @@ import { routes } from './routes';
 admin.initializeApp({ credential: admin.credential.cert(credentials) });
 const app = express();
 
-const DB_NAME = 'members-only';
+const DB_NAME = 'members-only-key';
 
 app.use(bodyParser.json());
 

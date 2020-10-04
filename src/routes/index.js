@@ -1,6 +1,6 @@
 import { acceptRequestRoute } from './acceptRequestRoute';
 import { createGroupRoute } from './createGroupRoute';
-import { createJoinRequestRoute } from './createJoinRequestRoute';
+import { createRequestRoute } from './createRequestRoute';
 import { createMessageRoute } from './createMessageRoute';
 import { getAllGroupsRoute } from './getAllGroupsRoute';
 import { getGroupRoute } from './getGroupRoute';
@@ -12,7 +12,7 @@ import { rejectRequestRoute } from './rejectRequestRoute';
 export const routes = [
     acceptRequestRoute,
     createGroupRoute,
-    createJoinRequestRoute,
+    createRequestRoute,
     createMessageRoute,
     getAllGroupsRoute,
     getGroupRoute,

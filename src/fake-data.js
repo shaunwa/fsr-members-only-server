@@ -25,20 +25,16 @@ module.exports.groups = [{
 
 module.exports.requests = [{
     id: '123',
-    userId: USER_ID_1,
+    userId: USER_ID_3,
     groupId: GROUP_ID_2,
 }, {
     id: '234',
-    userId: USER_ID_2,
+    userId: USER_ID_1,
     groupId: GROUP_ID_3,
 }, {
     id: '345',
-    userId: USER_ID_3,
+    userId: USER_ID_2,
     groupId: GROUP_ID_1,
-}, {
-    id: '456',
-    userId: USER_ID_3,
-    groupId: GROUP_ID_2,
 }];
 
 module.exports.messages = [{
@@ -73,10 +69,10 @@ module.exports.users = [{
     fullName: 'Victor Hugo',
 }, {
     id: USER_ID_2,
-    email: 'jimjam@gmail.com',
-    fullName: 'Jim Jam',
+    email: 'jsmith@gmail.com',
+    fullName: 'John Smith',
 }, {
     id: USER_ID_3,
-    email: 'hannahbanana@gmail.com',
-    fullName: 'Hannah Banana',
+    email: 'hjones@gmail.com',
+    fullName: 'Hannah Jones',
 }];
